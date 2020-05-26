@@ -1,0 +1,68 @@
+body {
+    font-size: 16px;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+/*** HEADER START ***/
+
+#header-nav {
+    background-color: moccasin;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.navbar-brand h1 {  /* Business name */
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1;
+    color: rgb(49, 49, 49);
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: rgb(49, 49, 49);
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: rgb(178, 218, 255);
+    font-weight: bold;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+/*** HEADER END ***/
+
+/*** MAIN CONTENT START ***/
+
+#food-item {
+    margin: auto;
+    float: none;
+    background-color: moccasin;
+    width: 95%;
+}
+
+#food-item h3 {
+    padding-top: 5px;
+}
+
+@media (min-width: 576px) { /* Mobile mockup illustration should correspond to Bootstrap xs-based classes i.e. < 576 px */
+    #show-button {
+        visibility: hidden;
+    }
+}
+
+/*** MAIN CONTENT END ***/
