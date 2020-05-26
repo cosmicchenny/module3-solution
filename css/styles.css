@@ -31,18 +31,18 @@ body {
 
 #nav-list {
     margin-top: 10px;
-  }
-  #nav-list a {
-    color: rgb(49, 49, 49);
-    text-align: center;
-  }
-  #nav-list a:hover {
-    background: rgb(178, 218, 255);
-    font-weight: bold;
-  }
-  #nav-list a span {
-    font-size: 1.8em;
-  }
+}
+#nav-list a {
+color: rgb(49, 49, 49);
+
+}
+#nav-list a:hover {
+background: rgb(178, 218, 255);
+font-weight: bold;
+}
+#nav-list a span {
+font-size: 1.8em;
+}
 
 /*** HEADER END ***/
 
